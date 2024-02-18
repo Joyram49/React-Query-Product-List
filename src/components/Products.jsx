@@ -36,6 +36,12 @@ export default function Products() {
     },
   });
 
+  const deleteHandler = (id) => {
+    setEditableProduct(null);
+    setProductId(undefined);
+    mutation.mutate(id);
+  };
+
   if (isLoading) {
     return <div>Fetching products.....</div>;
   }
@@ -80,8 +86,8 @@ export default function Products() {
                 </button>
                 <button
                   className='px-2 py-1  bg-rose-500 text-white border cursor-pointer rounded-md'
-                  onClick={() => mutation.mutate(product.id)}
                   disabled={mutation.isPending}
+                  onClick={() => deleteHandler(product.id)}
                 >
                   Delete
                 </button>

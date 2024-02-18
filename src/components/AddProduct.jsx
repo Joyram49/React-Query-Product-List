@@ -24,6 +24,10 @@ const AddProduct = () => {
     thumbnail: "",
   });
 
+  const isAdd = Object.is(editableProduct, null);
+
+  console.log(isAdd);
+
   useEffect(() => {
     if (editableProduct) {
       setState((prev) => ({
@@ -31,10 +35,18 @@ const AddProduct = () => {
         ...editableProduct,
       }));
     }
+    if (isAdd) {
+      setState({
+        title: "",
+        description: "",
+        price: 0,
+        rating: 5,
+        thumbnail: "",
+      });
+    }
   }, [editableProduct]);
 
-  const isAdd = Object.is(editableProduct, null);
-
+  // product post function
   const mutation = useMutation({
     mutationFn: (newProduct) =>
       axios.post("http://localhost:8000/products", newProduct),
