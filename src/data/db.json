@@ -1,22 +1,6 @@
 {
   "products": [
     {
-      "id": "1",
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 549,
-      "rating": 4.69,
-      "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
-    },
-    {
-      "id": "2",
-      "title": "iPhone X",
-      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 899,
-      "rating": 4.44,
-      "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
-    },
-    {
       "id": "3",
       "title": "Samsung Universe 9",
       "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
@@ -233,60 +217,12 @@
       "thumbnail": "https://cdn.dummyjson.com/product-images/29/thumbnail.webp"
     },
     {
-      "id": "30",
-      "title": "Key Holder",
-      "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
-      "price": 30,
-      "rating": 4.92,
-      "thumbnail": "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg"
-    },
-    {
-      "id": "13dfb563-bc9a-4027-8100-fea2348e51bd",
-      "title": "Bed",
-      "description": "A superb Cozy Bed",
+      "id": "9debc0ee-3d8d-4549-aa4c-f7ff6352dba7",
+      "title": "new 1",
+      "description": "new product one",
       "price": 2000,
       "rating": 5,
-      "thumbnail": "https://cdn.dummyjson.com/product-images/31/thumbnail.jpg"
-    },
-    {
-      "id": "3dbb3096-f2ef-4815-8653-d6c4a2965dbe",
-      "title": "Bed",
-      "description": "Cozy Bed",
-      "price": 1000,
-      "rating": 5,
-      "thumbnail": "https://cdn.dummyjson.com/product-images/32/thumbnail.jpg"
-    },
-    {
-      "id": "1501ddb8-33e9-45b1-a7a9-b16a78b35c7b",
-      "title": "bbbbaa",
-      "description": "nnnnn",
-      "price": 3,
-      "rating": 5,
-      "thumbnail": "kjjl"
-    },
-    {
-      "id": "c0550154-58e4-496b-8c14-e4c4cf730651",
-      "title": "bbbbaa",
-      "description": "nnnnn",
-      "price": 3,
-      "rating": 5,
-      "thumbnail": "kjjl"
-    },
-    {
-      "id": "aecf1713-a230-47dc-83fc-57959962eddd",
-      "title": "gfg",
-      "description": "fgfg",
-      "price": 3,
-      "rating": 5,
-      "thumbnail": "fgfg"
-    },
-    {
-      "id": "77dbc929-c4ed-43a8-a6d0-507de095f329",
-      "title": "test",
-      "description": "test desc",
-      "price": 3,
-      "rating": 5,
-      "thumbnail": "test"
+      "thumbnail": "https://cdn.dummyjson.com/product-images/6/thumbnail.png"
     }
   ]
 }

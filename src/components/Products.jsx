@@ -69,7 +69,7 @@ export default function Products() {
               key={product.id}
               className='flex flex-col items-center m-2 border rounded-sm'
             >
-              <button onClick={() => setProductId(Number(product.id))}>
+              <button onClick={() => setProductId(product.id)}>
                 <img
                   src={product.thumbnail}
                   alt={product.title}

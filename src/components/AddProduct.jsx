@@ -26,8 +26,6 @@ const AddProduct = () => {
 
   const isAdd = Object.is(editableProduct, null);
 
-  console.log(isAdd);
-
   useEffect(() => {
     if (editableProduct) {
       setState((prev) => ({
@@ -44,7 +42,7 @@ const AddProduct = () => {
         thumbnail: "",
       });
     }
-  }, [editableProduct]);
+  }, [editableProduct, setState, isAdd]);
 
   // product post function
   const mutation = useMutation({
@@ -88,6 +86,7 @@ const AddProduct = () => {
     e.preventDefault();
     if (isAdd) {
       const newData = { ...state, id: crypto.randomUUID().toString() };
+      console.log(newData);
       mutation.mutate(newData);
     } else {
       editMutation.mutate(state);

@@ -12,6 +12,7 @@ const getProduct = async ({ queryKey }) => {
 
 export default function ProductDetails() {
   const { productId: id } = useContext(ProductIdContext);
+  console.log(id);
   const {
     data: product,
     error,
